@@ -1,0 +1,69 @@
+<?php $helper = $this->helper(Sparsh\WhatsAppChat\Helper\Data::class);?>
+
+<?php if ($helper->getWAStatus()) : ?>
+    <div id="whatsappchat">
+        <a href="https://web.whatsapp.com/send?phone=<?= /* @noEscape */ $helper->getWAPhone(); ?>&amp;text=<?= /* @noEscape */ $helper->getWAMessage(); ?>" target="_blank" class="btn-web <?= /* @noEscape */ $helper->getWAPosition() ?>">
+            <img src="<?= /* @noEscape */ $helper->getWAIconUrl(); ?>" alt="WhatsApp Chat">
+        </a>
+        <a href="https://wa.me/<?= /* @noEscape */ $helper->getWAPhone(); ?>?text=<?= /* @noEscape */ $helper->getWAMessage(); ?>" target="_blank" class="btn-mobile <?= /* @noEscape */ $helper->getWAPosition() ?>">
+            <img src="<?= /* @noEscape */ $helper->getWAIconUrl(); ?>" alt="WhatsApp Chat">
+        </a>
+    </div>
+    <?php
+    $whatsAppRelPx1 = '0px';
+    $whatsAppRelPx2 = '0px';
+    $whatsAppRelPx = $helper->getWARelPx();
+    if($whatsAppRelPx) {
+        $whatsAppRelPxArray = explode(" ",$whatsAppRelPx);
+        $whatsAppRelPx1 = trim($whatsAppRelPxArray[0]);
+        if(isset($whatsAppRelPxArray[1])) {
+            $whatsAppRelPx2 = trim($whatsAppRelPxArray[1]);
+        }
+    }
+    ?>
+    <style type="text/css">
+        #whatsappchat a.top-left {
+            top: <?php echo $whatsAppRelPx1; ?>;
+            left: <?php echo $whatsAppRelPx2; ?>;
+        }
+
+        #whatsappchat a.top-right {
+            top: <?php echo $whatsAppRelPx1; ?>;
+            right: <?php echo $whatsAppRelPx2; ?>;
+        }
+
+        #whatsappchat a.top-middle {
+            top: <?php echo $whatsAppRelPx1; ?>;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        #whatsappchat a.left-middle {
+            left: <?php echo $whatsAppRelPx1; ?>;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        #whatsappchat a.right-middle {
+            right: <?php echo $whatsAppRelPx1; ?>;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        #whatsappchat a.bottom-middle {
+            bottom: <?php echo $whatsAppRelPx1; ?>;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        #whatsappchat a.bottom-left {
+            left: <?php echo $whatsAppRelPx1; ?>;
+            bottom: 0px;
+        }
+
+        #whatsappchat a.bottom-right {
+            right: <?php echo $whatsAppRelPx1; ?>;
+            bottom: <?php echo $whatsAppRelPx2; ?>;
+        }
+    </style>
+<?php endif; ?>
