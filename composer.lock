@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed4e6cc6d23fc84b717f58996c942cf4",
+    "content-hash": "fe2238e6afa26f67cd135363e9d944da",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -17188,6 +17188,59 @@
                 "source": "https://github.com/magento/zf1/tree/1.14.5"
             },
             "time": "2020-12-02T21:12:59+00:00"
+        },
+        {
+            "name": "mercadopago/magento2-plugin",
+            "version": "3.8.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mercadopago/cart-magento2.git",
+                "reference": "f42fb3fc1eba13624a4efdca6356809edc238fd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mercadopago/cart-magento2/zipball/f42fb3fc1eba13624a4efdca6356809edc238fd1",
+                "reference": "f42fb3fc1eba13624a4efdca6356809edc238fd1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "~1.2",
+                "lusitanian/oauth": "~0.3 <=0.7.0",
+                "magento/product-community-edition": "2.*",
+                "pdepend/pdepend": "2.2.2",
+                "phpmd/phpmd": "@stable",
+                "phpunit/phpunit": "4.1.0",
+                "sjparkinson/static-review": "~4.1",
+                "squizlabs/php_codesniffer": "1.5.3"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "psr-4": {
+                    "MercadoPago\\Core\\": "src/MercadoPago/Core"
+                },
+                "files": [
+                    "src/MercadoPago/Core/registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Mercado Pago",
+                    "email": "plugins.dev@mercadopago.com"
+                }
+            ],
+            "description": "Mercado Pago Magento 2 Plugin",
+            "support": {
+                "source": "https://github.com/mercadopago/cart-magento2/tree/v3.8.5"
+            },
+            "time": "2021-05-20T20:21:23+00:00"
         },
         {
             "name": "monolog/monolog",
