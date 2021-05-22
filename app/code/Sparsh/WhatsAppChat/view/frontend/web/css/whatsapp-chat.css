@@ -1,0 +1,30 @@
+#whatsappchat a {
+    position: fixed;
+    z-index: 9999;
+    float: right;
+    cursor: pointer;
+    min-width: 40px;
+    max-width: 200px;
+    text-align: center;
+    -webkit-transition: All .5s ease;
+    -moz-transition: All .5s ease;
+    -o-transition: All .5s ease;
+    -ms-transition: All .5s ease;
+    transition: All .5s ease;
+}
+
+@media(max-width: 767px) {
+    #whatsappchat a {
+        max-width: 150px;
+    }
+
+    #whatsappchat .btn-web{
+        display: none;
+    }
+}
+
+@media(min-width: 768px) {
+    #whatsappchat .btn-mobile{
+        display: none;
+    }
+}
