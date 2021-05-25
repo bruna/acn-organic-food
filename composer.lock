@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "defef2cd3bf162fc5676b077460d50b9",
+    "content-hash": "50b0b4a23b4c192599e4bde09eb97617",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -1994,6 +1994,31 @@
                 "source": "https://github.com/guzzle/psr7/tree/1.8.2"
             },
             "time": "2021-04-26T09:17:50+00:00"
+        },
+        {
+            "name": "ideo/module-storelocator",
+            "version": "2.0.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/ideo/module-storelocator/ideo-module-storelocator-2.0.5.0.zip",
+                "shasum": "19e24e9831654b50a6f12ed640fddeec7fcddf8e"
+            },
+            "require": {
+                "magento/framework": ">100.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Ideo\\StoreLocator\\": ""
+                }
+            },
+            "license": [
+                "GPLv3"
+            ],
+            "description": "N/A"
         },
         {
             "name": "justinrainbow/json-schema",
