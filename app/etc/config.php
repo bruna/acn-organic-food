@@ -315,6 +315,7 @@ return [
         'Dotdigitalgroup_Email' => 1,
         'Dotdigitalgroup_Chat' => 1,
         'Dotdigitalgroup_Sms' => 1,
+        'Gama_FreeShipping' => 1,
         'Ho_Templatehints' => 1,
         'Ideo_StoreLocator' => 1,
         'Klarna_Core' => 1,
