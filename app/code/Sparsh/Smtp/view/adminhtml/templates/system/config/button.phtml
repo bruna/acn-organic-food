@@ -1,0 +1,33 @@
+<script>
+require([
+    'jquery',
+    'Magento_Ui/js/modal/alert',
+    'prototype',
+], function($, alert){
+    function sendTestMail() {
+
+        params = {
+        	'toEmail': $('#sparsh_smtp_general_test_email_mail_to').val(),
+        	'fromEmail': $('#sparsh_smtp_general_test_email_mail_from').val()
+        };
+
+        new Ajax.Request('<?php echo $block->getAjaxUrl() ?>', {
+            loaderArea:     true,
+            parameters:     params,
+            onSuccess: function(transport) {
+                var response = JSON.parse(transport.responseText);
+                console.log(response);
+                alert({
+                    title: response.success ? 'Success' : 'Error',
+                    content: response.message
+                });
+            }
+        });
+    }
+
+    $('#test_sparsh_smtp_mail').click(function () {
+        sendTestMail ();
+    });
+});
+</script>
+<?php echo $block->getButtonHtml() ?>
