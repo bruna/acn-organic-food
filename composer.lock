@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "50b0b4a23b4c192599e4bde09eb97617",
+    "content-hash": "e3f3af76031d207192fc926457584e95",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -18579,6 +18579,31 @@
                 "source": "https://github.com/Seldaek/phar-utils/tree/master"
             },
             "time": "2020-07-07T18:42:57+00:00"
+        },
+        {
+            "name": "sparsh/magento-2-smtp-extension",
+            "version": "1.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/sparsh/magento-2-smtp-extension/sparsh-magento-2-smtp-extension-1.0.1.0.zip",
+                "shasum": "176855e6f7935e4854db546889f1f125b287d94f"
+            },
+            "require": {
+                "php": "~7.0.13|~7.1.0|~7.2.0|~7.3.0|~7.4.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Sparsh\\Smtp\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "description": "Sparsh SMTP Extension for Magento 2"
         },
         {
             "name": "spomky-labs/otphp",

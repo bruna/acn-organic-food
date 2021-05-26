@@ -326,6 +326,7 @@ return [
         'MercadoPago_Core' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
+        'Sparsh_Smtp' => 1,
         'Sparsh_WhatsAppChat' => 1,
         'Swissup_Core' => 1,
         'Swissup_SearchMysqlLegacy' => 1,

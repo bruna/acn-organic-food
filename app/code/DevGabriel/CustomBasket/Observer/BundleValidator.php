@@ -8,6 +8,9 @@ use Magento\Framework\Exception\LocalizedException;
 class BundleValidator implements ObserverInterface
 {
 
+    /**
+     * @throws LocalizedException
+     */
     public function execute(\Magento\Framework\Event\Observer $observer)
     {
         /** @var \Magento\Quote\Api\Data\CartItemInterface $quoteItem */
@@ -20,7 +23,7 @@ class BundleValidator implements ObserverInterface
                 $addedQuantity += $item->getTotalQty();
             }
             if($addedQuantity != $bundleSize){
-                throw new LocalizedException(__('Por favor, insira %1 produtos nessa cesta', $bundleSize));
+                throw new LocalizedException(__('Please put at least %1 products in this bundle', $bundleSize));
             }
         }
     }
