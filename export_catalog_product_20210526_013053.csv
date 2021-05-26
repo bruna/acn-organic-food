@@ -1,0 +1,142 @@
+sku,store_view_code,attribute_set_code,product_type,categories,product_websites,name,description,short_description,weight,product_online,tax_class_name,visibility,price,special_price,special_price_from_date,special_price_to_date,url_key,meta_title,meta_keywords,meta_description,base_image,base_image_label,small_image,small_image_label,thumbnail_image,thumbnail_image_label,swatch_image,swatch_image_label,created_at,updated_at,new_from_date,new_to_date,display_product_options_in,map_price,msrp_price,map_enabled,gift_message_available,custom_design,custom_design_from,custom_design_to,custom_layout_update,page_layout,product_options_container,msrp_display_actual_price_type,country_of_manufacture,additional_attributes,qty,out_of_stock_qty,use_config_min_qty,is_qty_decimal,allow_backorders,use_config_backorders,min_cart_qty,use_config_min_sale_qty,max_cart_qty,use_config_max_sale_qty,is_in_stock,notify_on_stock_below,use_config_notify_stock_qty,manage_stock,use_config_manage_stock,use_config_qty_increments,qty_increments,use_config_enable_qty_inc,enable_qty_increments,is_decimal_divided,website_id,related_skus,related_position,crosssell_skus,crosssell_position,upsell_skus,upsell_position,additional_images,additional_image_labels,hide_from_product_page,custom_options,bundle_price_type,bundle_sku_type,bundle_price_view,bundle_weight_type,bundle_values,bundle_shipment_type,associated_skus,downloadable_links,downloadable_samples,configurable_variations,configurable_variation_labels
+produto-exemplo,,Default,simple,"Default Category,Default Category/Proteína",base,"Produto Exemplo","<p>Descrição completa</p>","<p>Descrição curta</p>",0.100000,1,"Taxable Goods","Catalog, Search",10.000000,,,,produto-exemplo,"Produto Exemplo","Produto Exemplo","Produto Exemplo Descrição completa",,,,,,,,,"16/05/2021 17:10","16/05/2021 17:10",,,"Block after Info Column",,,,"Use config",,,,,,,"Use config",,,100000.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+tom-001,,Default,simple,"Default Category/Hortifruti,Default Category/Hortifruti/Verduras,Default Category",base,Tomate,"<p>Tomates verdes e maduros, de primeira qualidade. Não contém agrotóxico.</p>","<p>Tomates verdes e maduros, de primeira qualidade. Não contém agrotóxico.</p>",1.000000,1,"Taxable Goods","Catalog, Search",3.000000,,,,tomate,Tomate,Tomate,"Tomate sem agrotóxico",/w/h/whatsapp-image-2019-03-18-at-16.16.25.jpeg,,/w/h/whatsapp-image-2019-03-18-at-16.16.25.jpeg,,/w/h/whatsapp-image-2019-03-18-at-16.16.25.jpeg,,/w/h/whatsapp-image-2019-03-18-at-16.16.25.jpeg,,"21/05/2021 21:57","22/05/2021 10:40",21/05/2021,28/05/2021,"Block after Info Column",,,,"Use config",,,,,,,"Use config",,,100.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/w/h/whatsapp-image-2019-03-18-at-16.16.25.jpeg,,,,,,,,,,,,,,
+que-001,,Default,simple,"Default Category/Queijos",base,"Queijo Cottage","<p>Além de saboroso, o queijo cottage garante excelentes nutrientes para o bom funcionamento do seu corpo e pode ser um bom aliado no processo de emagrecimento.</p>","<p>Além de saboroso, o queijo cottage garante excelentes nutrientes para o bom funcionamento do seu corpo e pode ser um bom aliado no processo de emagrecimento.</p>
+<p>O cottage é um excelente aliado para quem busca uma alimentação equilibrada, e também uma ótima opção para quem procura emagrecer. Esse é um dos queijos com menor teor calórico e de gorduras, além de ser rico em proteínas e minerais, como cálcio, potássio e fósforo, e, por isso, seu consumo oferece diversos benefícios à saúde.</p>
+<p>Outra vantagem do queijo cottage é a sua versatilidade, podendo ser consumido frio ou adicionado em saladas, legumes, recheios e pastas.</p>",1.000000,1,"Taxable Goods","Catalog, Search",30.000000,,,,queijo-cottage,"Queijo Cottage","Queijo Cottage","Queijo Cottage, um bom aliado no processo de emagrecimento.",/q/u/queijo-cottage_38997_l.jpg,,/q/u/queijo-cottage_38997_l.jpg,,/q/u/queijo-cottage_38997_l.jpg,,/q/u/queijo-cottage_38997_l.jpg,,"21/05/2021 22:32","22/05/2021 11:43",21/05/2021,28/05/2021,"Block after Info Column",,,,"Use config",,,,,,,"Use config",,,100.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,"que-002,ovo-001","1,2",,,,,/q/u/queijo-cottage_38997_l.jpg,,,,,,,,,,,,,,
+bol-001,,Default,virtual,"Default Category,Default Category/Bolos fit",base,"Bolo de banana com aveia",,"<p>Bolo de banana delicioso. Produção diária.</p>",,1,"Taxable Goods","Catalog, Search",6.000000,,,,bolo-banana-com-aveia,"Bolo de ban","Bolo de ban","Bolo de ban ",/t/h/thumb-receita-de-bolo-fit-para-fazer-em-casa_1.jpg,,/t/h/thumb-receita-de-bolo-fit-para-fazer-em-casa_1.jpg,,/t/h/thumb-receita-de-bolo-fit-para-fazer-em-casa_1.jpg,,/t/h/thumb-receita-de-bolo-fit-para-fazer-em-casa_1.jpg,,"22/05/2021 10:20","22/05/2021 12:09",22/05/2021,28/05/2021,"Block after Info Column",,,,"Use config",,,,,,,"Use config",,,100.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,ovo-001,1,,,,,/t/h/thumb-receita-de-bolo-fit-para-fazer-em-casa_1.jpg,,,,,,,,,,,,,,
+mac-001,,Default,simple,"Default Category/Hortifruti,Default Category/Hortifruti/Frutas",base,Maçã,,"<p>Maçãs deliciosas e vermelhinhas</p>",1.000000,1,"Taxable Goods","Catalog, Search",6.500000,,,,maca,Maçã,Maçã,"Maçã ",/m/a/maa-nova-clnica-luz-almirante-tamandar.jpg,,/m/a/maa-nova-clnica-luz-almirante-tamandar.jpg,,/m/a/maa-nova-clnica-luz-almirante-tamandar.jpg,,/m/a/maa-nova-clnica-luz-almirante-tamandar.jpg,,"22/05/2021 10:26","22/05/2021 10:26",22/05/2021,28/05/2021,"Block after Info Column",,,,"Use config",,,,,,,"Use config",,,100.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/m/a/maa-nova-clnica-luz-almirante-tamandar.jpg,,,,,,,,,,,,,,
+pim-001,,Default,simple,"Default Category,Default Category/Temperos",base,"Pimenta do reino",,"<p>Para temperar sua comida </p>",1.000000,1,"Taxable Goods","Catalog, Search",3.000000,,,,pimenta-do-reino,"Pimenta do reino","Pimenta do reino","Pimenta do reino ",/p/i/pimenta-do-reino-proibida.png,,/p/i/pimenta-do-reino-proibida.png,,/p/i/pimenta-do-reino-proibida.png,,/p/i/pimenta-do-reino-proibida.png,,"22/05/2021 10:34","22/05/2021 10:34",22/05/2021,29/05/2021,"Block after Info Column",,,,"Use config",,,,,,,"Use config",,,100.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/p/i/pimenta-do-reino-proibida.png,,,,,,,,,,,,,,
+cen-001,,Default,simple,"Default Category/Hortifruti,Default Category/Hortifruti/Legumes",base,Cenoura,,"<p>As cenouras da ACN não ficam murchas com facilidade.</p>",1.000000,1,"Taxable Goods","Catalog, Search",4.000000,,,,cenoura,Cenoura,Cenoura,"Cenoura ",/c/e/cenoura.jpg,,/c/e/cenoura.jpg,,/c/e/cenoura.jpg,,/c/e/cenoura.jpg,,"22/05/2021 10:37","22/05/2021 10:37",22/05/2021,29/05/2021,"Block after Info Column",,,,"Use config",,,,,,,"Use config",,,100.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/c/e/cenoura.jpg,,,,,,,,,,,,,,
+pat-001,,Default,simple,"Default Category,Default Category/Proteína,Default Category/Proteína/Carnes",base,"Patinho moído",,"<p>Carne moída de primeira</p>",1.000000,1,"Taxable Goods","Catalog, Search",22.000000,,,,patinho-moido,"Patinho moído","Patinho moído","Patinho moído ",/1/6/1695_b_1.jpg,,/1/6/1695_b_1.jpg,,/1/6/1695_b_1.jpg,,/1/6/1695_b_1.jpg,,"22/05/2021 10:43","22/05/2021 12:10",22/05/2021,29/05/2021,"Block after Info Column",,,,"Use config",,,,,,,"Use config",,,100.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,"fil-001,con-001","1,2",,,,,/1/6/1695_b_1.jpg,,,,,,,,,,,,,,
+fil-001,,Default,simple,"Default Category,Default Category/Proteína,Default Category/Proteína/Aves",base,"Filé de peito de frango",,"<p>FIlé de peito de frango resfriado na bandeja</p>",1.000000,1,"Taxable Goods","Catalog, Search",15.000000,,,,file-de-peito,"Filé de peito de frango","Filé de peito de frango","Filé de peito de frango ",/5/1/5144_b_2.jpg,,/5/1/5144_b_2.jpg,,/5/1/5144_b_2.jpg,,/5/1/5144_b_2.jpg,,"22/05/2021 10:47","22/05/2021 10:47",22/05/2021,29/05/2021,"Block after Info Column",,,,"Use config",,,,,,,"Use config",,,100.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/5/1/5144_b_2.jpg,,,,,,,,,,,,,,
+que-002,,Default,simple,"Default Category,Default Category/Queijos",base,"Queijo Ricota",,"<p>A <em>Ricota</em> é considerada um produto leve e dietético, constituindo-<wbr />se numa base importante para dietas. Seu sabor é suave e de textura seca.</p>",1.000000,1,"Taxable Goods","Catalog, Search",35.000000,,,,queijo-ricota,"Queijo Ricota","Queijo Ricota","Queijo Ricota ",/r/i/ricota-fresca.png,,/r/i/ricota-fresca.png,,/r/i/ricota-fresca.png,,/r/i/ricota-fresca.png,,"22/05/2021 10:52","22/05/2021 10:52",22/05/2021,29/05/2021,"Block after Info Column",,,,"Use config",,,,,,,"Use config",,,100.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/r/i/ricota-fresca.png,,,,,,,,,,,,,,
+con-001,,Default,simple,"Default Category,Default Category/Proteína,Default Category/Proteína/Carnes",base,"Contra filé",,"<p>Cortes selecionados</p>",1.000000,1,"Taxable Goods","Catalog, Search",23.000000,,,,contra-file,"Contra filé","Contra filé","Contra filé ",/2/4/2413_2413.jpg,,/2/4/2413_2413.jpg,,/2/4/2413_2413.jpg,,/2/4/2413_2413.jpg,,"22/05/2021 10:59","22/05/2021 10:59",22/05/2021,29/05/2021,"Block after Info Column",,,,"Use config",,,,,,,"Use config",,,100.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/2/4/2413_2413.jpg,,,,,,,,,,,,,,
+ces-001,,Default,virtual,"Default Category,Default Category/Cestas,Default Category/Cestas/Cestas montadas",base,"Cesta P ACN","<p>A cesta P contém<strong> 12 produtos</strong>:</p>
+<ul>
+<li>Tomate</li>
+<li>Cebola</li>
+<li>Batata</li>
+<li>Cenoura</li>
+<li>Coentro</li>
+<li>Chuchu</li>
+<li>Alface</li>
+<li>Rúcula</li>
+<li>Maçã</li>
+<li>Beringela</li>
+<li>Pepino</li>
+<li>1 kg de filé de peito de frango</li>
+</ul>",,,1,"Taxable Goods","Catalog, Search",30.000000,,,,cesta-p,"Cesta P","Cesta P","Cesta P A cesta P contém 12 produtos:
+
+Tomate
+Cebola
+Batata
+Cenoura
+Coentro
+Chuchu
+Alface
+Rúcula
+Maçã
+Beringela
+Pepino
+1 kg de filé de peito de frango
+",/c/e/cesta-p.jpg,,/c/e/cesta-p.jpg,,/c/e/cesta-p.jpg,,/c/e/cesta-p.jpg,,"22/05/2021 11:15","22/05/2021 12:43",22/05/2021,29/05/2021,"Block after Info Column",,,,"Use config",,,,,,,"Use config",,,100.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,"ces-002,ces-003","1,2",,,,,/c/e/cesta-p.jpg,,,,,,,,,,,,,,
+ces-002,,Default,virtual,"Default Category,Default Category/Cestas,Default Category/Cestas/Cestas montadas",base,"Cesta M ACN","<p>A cesta M contém 20 produtos:</p>
+<ul>
+<li>Tomate</li>
+<li>Cebola</li>
+<li>Batata</li>
+<li>Cenoura</li>
+<li>Coentro</li>
+<li>Chuchu</li>
+<li>Alface</li>
+<li>Rúcula</li>
+<li>Maçã</li>
+<li>Beringela</li>
+<li>Pepino</li>
+<li>1 kg de filé de peito de frango</li>
+<li>Pimenta do reino</li>
+<li>Páprica doce</li>
+<li>Queijo Cottage</li>
+<li>Salsinha</li>
+<li>Brócolis</li>
+<li>Tempero da casa ACN</li>
+<li>Banana</li>
+<li>1 bandeja de ovo</li>
+</ul>",,,1,"Taxable Goods","Catalog, Search",45.000000,,,,cesta-m,"Cesta M","Cesta M","Cesta M A cesta M contém 20 produtos:
+
+Tomate
+Cebola
+Batata
+Cenoura
+Coentro
+Chuchu
+Alface
+Rúcula
+Maçã
+Beringela
+Pepino
+1 kg de filé de peito de frango
+Pimenta do reino
+Páprica doce
+Queijo Cottage
+Salsinha
+Brócolis
+Tempero da casa ACN
+B",/c/e/cesta-m.png,,/c/e/cesta-m.png,,/c/e/cesta-m.png,,/c/e/cesta-m.png,,"22/05/2021 11:18","22/05/2021 12:44",22/05/2021,29/05/2021,"Block after Info Column",,,,"Use config",,,,,,,"Use config",,,100.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/c/e/cesta-m.png,,,,,,,,,,,,,,
+ces-003,,Default,virtual,"Default Category,Default Category/Cestas,Default Category/Cestas/Cestas montadas",base,"Cesta G ACN","<p>A cesta G contém 30 produtos:</p>
+<ul>
+<li>Tomate</li>
+<li>Cebola</li>
+<li>Batata</li>
+<li>Cenoura</li>
+<li>Coentro</li>
+<li>Chuchu</li>
+<li>Alface</li>
+<li>Rúcula</li>
+<li>Maçã</li>
+<li>Beringela</li>
+<li>Pepino</li>
+<li>1 kg de filé de peito de frango</li>
+<li>Pimenta do reino</li>
+<li>Páprica doce</li>
+<li>Queijo Cottage</li>
+<li>Salsinha</li>
+<li>Brócolis</li>
+<li>Tempero da casa ACN</li>
+<li>Banana</li>
+<li>1 bandeja de ovo</li>
+<li>1 bandeja de patinho moído</li>
+<li>Laranja</li>
+<li>Limão</li>
+<li>Beterraba</li>
+<li>Queijo minas</li>
+<li>Couve</li>
+<li>Repolho roxo</li>
+<li>Uva</li>
+<li>Morango</li>
+<li>Kiwi</li>
+</ul>",,,1,"Taxable Goods","Catalog, Search",60.000000,,,,cesta-g,"Cesta G","Cesta G","Cesta G A cesta G contém 30 produtos:
+
+Tomate
+Cebola
+Batata
+Cenoura
+Coentro
+Chuchu
+Alface
+Rúcula
+Maçã
+Beringela
+Pepino
+1 kg de filé de peito de frango
+Pimenta do reino
+Páprica doce
+Queijo Cottage
+Salsinha
+Brócolis
+Tempero da casa ACN
+B",/c/e/cesta-g.jpg,,/c/e/cesta-g.jpg,,/c/e/cesta-g.jpg,,/c/e/cesta-g.jpg,,"22/05/2021 11:28","22/05/2021 12:47",22/05/2021,29/05/2021,"Block after Info Column",,,,"Use config",,,,,,,"Use config",,,100.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/c/e/cesta-g.jpg,,,,,,,,,,,,,,
+ovo-001,,Default,virtual,"Default Category,Default Category/Proteína,Default Category/Proteína/Ovos",base,"Bandeja de ovo branco (30 unidades)",,"<p>Bendjão de ovos com 30 unidades</p>",,1,"Taxable Goods","Catalog, Search",12.000000,,,,ovo,"Bandeja de ovo branco (30 unidades)","Bandeja de ovo branco (30 unidades)","Bandeja de ovo branco (30 unidades) ",/b/d/bddac251b059a4bbf8ac88299ba66d2a6e6bf1a9c4b282c38ee128b247d2f022_full.jpg,,/b/d/bddac251b059a4bbf8ac88299ba66d2a6e6bf1a9c4b282c38ee128b247d2f022_full.jpg,,/b/d/bddac251b059a4bbf8ac88299ba66d2a6e6bf1a9c4b282c38ee128b247d2f022_full.jpg,,/b/d/bddac251b059a4bbf8ac88299ba66d2a6e6bf1a9c4b282c38ee128b247d2f022_full.jpg,,"22/05/2021 11:34","22/05/2021 11:34",22/05/2021,29/05/2021,"Block after Info Column",,,,"Use config",,,,,,,"Use config",,,100.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,/b/d/bddac251b059a4bbf8ac88299ba66d2a6e6bf1a9c4b282c38ee128b247d2f022_full.jpg,,,,,,,,,,,,,,
+ban-001,,Default,simple,"Default Category,Default Category/Hortifruti,Default Category/Hortifruti/Frutas",base,"Banana prata",,"<p>Banana prata</p>",1.000000,1,"Taxable Goods","Catalog, Search",3.000000,,,,banana,"Banana prata","Banana prata","Banana prata ",/b/a/banana-nanica-1kg_6_2.jpg,,/b/a/banana-nanica-1kg_6_2.jpg,,/b/a/banana-nanica-1kg_6_2.jpg,,/b/a/banana-nanica-1kg_6_2.jpg,,"22/05/2021 12:13","22/05/2021 12:13",22/05/2021,29/05/2021,"Block after Info Column",,,,"Use config",,,,,,,"Use config",,,100.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,mac-001,1,,,,,/b/a/banana-nanica-1kg_6_2.jpg,,,,,,,,,,,,,,
+ces-004,,Default,bundle,"Default Category,Default Category/Cestas,Default Category/Cestas/Cestas montadas",base,"Monte sua cesta",,,,1,"Taxable Goods","Catalog, Search",,,,,monte-sua-cesta,"Monte sua cesta","Monte sua cesta","Monte sua cesta ",,,,,,,,,"22/05/2021 12:25","22/05/2021 12:34",,,"Block after Info Column",,,,"Use config",,,,,,,"Use config",,,0.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,"ces-001,ces-002,ces-003","1,2,3",,,,,,,,,dynamic,dynamic,"Price range",dynamic,"name=Escolha os produtos da sua cesta,type=checkbox,required=1,sku=tom-001,price=0.0000,default=1,default_qty=1.0000,price_type=fixed,can_change_qty=0|name=Escolha os produtos da sua cesta,type=checkbox,required=1,sku=cen-001,price=0.0000,default=1,default_qty=1.0000,price_type=fixed,can_change_qty=0|name=Escolha os produtos da sua cesta,type=checkbox,required=1,sku=ban-001,price=0.0000,default=1,default_qty=1.0000,price_type=fixed,can_change_qty=0|name=Escolha os produtos da sua cesta,type=checkbox,required=1,sku=que-001,price=0.0000,default=0,default_qty=1.0000,price_type=fixed,can_change_qty=0|name=Escolha os produtos da sua cesta,type=checkbox,required=1,sku=bol-001,price=0.0000,default=0,default_qty=1.0000,price_type=fixed,can_change_qty=0|name=Escolha os produtos da sua cesta,type=checkbox,required=1,sku=mac-001,price=0.0000,default=0,default_qty=1.0000,price_type=fixed,can_change_qty=0|name=Escolha os produtos da sua cesta,type=checkbox,required=1,sku=pim-001,price=0.0000,default=0,default_qty=1.0000,price_type=fixed,can_change_qty=0|name=Escolha os produtos da sua cesta,type=checkbox,required=1,sku=pat-001,price=0.0000,default=0,default_qty=1.0000,price_type=fixed,can_change_qty=0|name=Escolha os produtos da sua cesta,type=checkbox,required=1,sku=fil-001,price=0.0000,default=0,default_qty=1.0000,price_type=fixed,can_change_qty=0|name=Escolha os produtos da sua cesta,type=checkbox,required=1,sku=que-002,price=0.0000,default=0,default_qty=1.0000,price_type=fixed,can_change_qty=0|name=Escolha os produtos da sua cesta,type=checkbox,required=1,sku=con-001,price=0.0000,default=0,default_qty=1.0000,price_type=fixed,can_change_qty=0|name=Escolha os produtos da sua cesta,type=checkbox,required=1,sku=ces-001,price=0.0000,default=0,default_qty=1.0000,price_type=fixed,can_change_qty=0|name=Escolha os produtos da sua cesta,type=checkbox,required=1,sku=ces-002,price=0.0000,default=0,default_qty=1.0000,price_type=fixed,can_change_qty=0|name=Escolha os produtos da sua cesta,type=checkbox,required=1,sku=ces-003,price=0.0000,default=0,default_qty=1.0000,price_type=fixed,can_change_qty=0|name=Escolha os produtos da sua cesta,type=checkbox,required=1,sku=ovo-001,price=0.0000,default=0,default_qty=1.0000,price_type=fixed,can_change_qty=0",together,,,,,
