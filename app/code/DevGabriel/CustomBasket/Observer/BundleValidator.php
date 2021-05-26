@@ -13,7 +13,7 @@ class BundleValidator implements ObserverInterface
         /** @var \Magento\Quote\Api\Data\CartItemInterface $quoteItem */
         $quoteItem = $observer->getQuoteItem();
         if ($quoteItem->getProductType() == 'bundle' && $quoteItem->getProduct()->getIsCustomBundle() && is_numeric($quoteItem->getProduct()->getCustomBundleSize())) {
-            $bundleSize = $quoteItem->getProduct()->getcustombundlesize();
+            $bundleSize = $quoteItem->getProduct()->getCustomBundleSize();
             $bundleItems = $quoteItem->getChildren();
             $addedQuantity = 0;
             foreach ($bundleItems as $item) {
