@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Hidden_Apparel::apparel" title="Apparel" module="Hidden_Apparel" sortOrder="65" resource="Hidden_Apparel::apparel"/>
+        <add id="Hidden_Apparel::apparelsettings" title="Configuration" module="Hidden_Apparel" sortOrder="20" parent="Hidden_Apparel::apparel" action="adminhtml/system_config/edit/section/apparelsettings" resource="Hidden_Apparel::apparel"/>
+    </menu>
+</config>
