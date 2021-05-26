@@ -17,6 +17,7 @@
         "magento/composer-root-update-plugin": "~1.1",
         "magento/product-community-edition": "2.4.2",
         "mercadopago/magento2-plugin": "3.*",
+        "sparsh/magento-2-smtp-extension": "^1.0",
         "swissup/module-search-mysql-legacy": "^1.0",
         "wolfsellers/module-enabledisabletfa": "^1.0"
     },
