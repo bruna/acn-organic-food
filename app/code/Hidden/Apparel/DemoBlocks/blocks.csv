@@ -1,0 +1,385 @@
+title,identifier,content,is_active,stores
+Payments Icons,payment-icons,"<span class=""payment-icons"">
+    <ul>
+        <li><a href=""#""><img class=""image-responsive middle-block"" src=""{{media url=""wysiwyg/paymet/americanexpress.png""}}"" alt=""americanexpress"" /></a></li>
+        <li><a href=""#""><img class=""image-responsive middle-block"" src=""{{media url=""wysiwyg/paymet/discover.png""}}"" alt=""discover"" /></a></li>
+        <li><a href=""#""><img class=""image-responsive middle-block"" src=""{{media url=""wysiwyg/paymet/maestro.png""}}"" alt=""maestro"" /></a></li>
+        <li><a href=""#""><img class=""image-responsive middle-block"" src=""{{media url=""wysiwyg/paymet/master.png""}}"" alt=""master"" /></a></li>
+        <li><a href=""#""><img class=""image-responsive middle-block"" src=""{{media url=""wysiwyg/paymet/visa.png""}}"" alt=""visa"" /></a></li>
+    </ul>
+</span>",1,0
+Home Slider,home-slider,"<div class=""home-slider-wrapper"">
+    <div class=""home-slider-main below-padding"">
+        <ul class=""home-slider"">
+            <li><a href=""#""><img class=""image-responsive middle-block"" src=""{{media url=""wysiwyg/slider/apparel-home-banner-1.png""}}"" alt=""home banner"" /> </a></li>
+            <li style=""display:none;""><a href=""#""><img class=""image-responsive middle-block"" src=""{{media url=""wysiwyg/slider/apparel-home-banner-2.png""}}"" alt=""home banner"" /> </a></li>
+        </ul>
+    </div>
+    <script type=""text/javascript"">
+        require(['jquery', 'apparelowlcarousel'], function() {
+            jQuery(document).ready(function() {
+                jQuery("".home-slider"").owlCarousel({
+                    items: 1,
+                    itemsDesktop: [1198, 1],
+                    itemsDesktopSmall: [1023, 1],
+                    itemsTablet: [768, 1],
+                    itemsTabletSmall: [767, 1],
+                    itemsMobile: [479, 1],
+                    pagination: false,
+                    navigationText: [""<div class='left-arrow'><i class='fa fa-arrow-left'></i></div>"", ""<div class='right-arrow'><i class='fa fa-arrow-right'></div>""],
+                    navigation: true,
+                });
+                jQuery("".home-slider li"").show();
+            });
+        });
+    </script>
+</div>",1,0
+Apparel Above,apparel-above,"{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""home-slider""}}",1,0
+Home Images Block,home-images-one,"<div class=""advert-outer-wrapper top-margin bottom-margin"">
+    <div class=""page-main"">
+        <div class=""content-row"">
+            <div class=""advert-inner-wrapper"">
+                <div class=""item-wrapper"">
+                    <div class=""item"">
+                        <a href=""#"">
+                            <img src=""{{media url=""wysiwyg/advertisement/adv-image-1.png""}}"" alt="""" />  
+                        </a>
+                    </div>
+                </div>  
+                <div class=""item-wrapper"">
+                    <div class=""item"">
+                        <a href=""#"">
+                            <img src=""{{media url=""wysiwyg/advertisement/adv-image-2.png""}}"" alt="""" />  
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>",1,0
+Apparel Below,apparel-below,"<div class=""page-main"">
+    {{widget type=""Magento\Catalog\Block\Product\Widget\NewWidget"" display_type=""all_products"" show_pager=""0"" products_count=""10"" template=""product/widget/new/content/new_grid.phtml""}}
+</div>
+{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""home-images-one""}}
+<div class=""page-main"">
+    {{widget type=""Magento\CatalogWidget\Block\Product\ProductsList"" title=""Featured Products"" show_pager=""0"" products_count=""10"" template=""product/widget/content/grid.phtml"" conditions_encoded=""^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,`aggregator`:`all`,`value`:`1`,`new_child`:``^],`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,`attribute`:`is_featured`,`operator`:`==`,`value`:`1`^]^]""}}
+</div>
+{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""home_testimonials""}} 
+{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""home_blogs""}}",1,0
+Home Testimonials,home_testimonials,"<div class=""testimonial-outer-wrapper slider-block top-margin bottom-margin"" style=""background-image: url({{media url='wysiwyg/testimonial/testimonials-bg.png'}});"">
+    <div class=""page-main"">
+        <div class=""title-block"">
+            <strong>
+                <span>What client say</span>
+            </strong>
+        </div>
+        <div class=""testimonial-slider"">
+            <div class=""item"">                
+                <div class=""text-block"">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscin elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                        magna Lorem Ipsum is simply dummy text of the printing any.
+                    </p>                    
+                </div>
+                <div class=""image-block"">
+                    <img src=""{{media url=""wysiwyg/testimonial/testimonial-1.png""}}"" alt="""" />
+                    <span class=""testimonial-name"">John Doe</span>
+                    <span class=""testimonial-desc"">Fashion Designer</span>
+                </div>
+            </div>
+            <div class=""item"">
+                <div class=""text-block"">
+                    <p>Rem ipsum dolor sit amet, consectetuer adipiscin elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                        magna Lorem Ipsum is simply dummy text of the printin.
+                    </p>                    
+                </div>
+                <div class=""image-block"">
+                    <img src=""{{media url=""wysiwyg/testimonial/testimonial-2.png""}}"" alt="""" />
+                    <span class=""testimonial-name"">Alina Doe</span>
+                    <span class=""testimonial-desc"">Fashion Designer</span>
+                </div>
+            </div>
+        </div>
+        <script>
+            require(['jquery', 'apparelowlcarousel'], function() {
+                jQuery(document).ready(function() {
+                    jQuery("".testimonial-slider"").owlCarousel({
+                        items: 1,
+                        itemsDesktop: [1199, 1],
+                        itemsDesktopSmall: [991, 1],
+                        itemsTablet: [767, 1],
+                        itemsTabletSmall: [639, 1],
+                        itemsMobile: [479, 1],
+                        pagination: false,
+                        navigationText: [""<div class='prev-arrow'><i class='fa fa-angle-left'></i></div>"", ""<div class='next-arrow'><i class='fa fa-angle-right'></div>""],
+                        navigation: true,
+                        autoPlay: true,
+                    });
+                    jQuery("".testimonial-slider .item"").show();
+                });
+            });
+        </script>
+    </div>
+</div>",1,0
+Home Brands,home-brands,"<div class=""brands-wrapper above-padding below-padding"">
+    <div class=""page-main"">
+        <div class=""brands-main"">
+            <ul class=""brands-slider"">
+                <li style=""display: none;""><a href=""#""><img src=""{{media url=""wysiwyg/brand/brand-1.png""}}"" alt=""brand-image"" /></a></li>
+                <li style=""display: none;""><a href=""#""><img src=""{{media url=""wysiwyg/brand/brand-2.png""}}"" alt=""brand-image"" /></a></li>
+                <li style=""display: none;""><a href=""#""><img src=""{{media url=""wysiwyg/brand/brand-3.png""}}"" alt=""brand-image"" /></a></li>
+                <li style=""display: none;""><a href=""#""><img src=""{{media url=""wysiwyg/brand/brand-4.png""}}"" alt=""brand-image"" /></a></li>
+                <li style=""display: none;""><a href=""#""><img src=""{{media url=""wysiwyg/brand/brand-5.png""}}"" alt=""brand-image"" /></a></li>
+                <li style=""display: none;""><a href=""#""><img src=""{{media url=""wysiwyg/brand/brand-6.png""}}"" alt=""brand-image"" /></a></li>
+                <li style=""display: none;""><a href=""#""><img src=""{{media url=""wysiwyg/brand/brand-7.png""}}"" alt=""brand-image"" /></a></li>
+                <li style=""display: none;""><a href=""#""><img src=""{{media url=""wysiwyg/brand/brand-8.png""}}"" alt=""brand-image"" /></a></li>
+            </ul>
+            <script type=""text/javascript"" xml=""space"">
+                require(['jquery', 'apparelowlcarousel'], function() {
+                    jQuery(document).ready(function() {
+                        jQuery("".brands-slider"").owlCarousel({
+                            items: 6,
+                            itemsDesktop: [1198, 5],
+                            itemsDesktopSmall: [1023, 5],
+                            itemsTablet: [768, 4],
+                            itemsTabletSmall: [767, 4],
+                            itemsMobile: [479, 2],
+                            pagination: false,
+                            navigationText: [""<div class='left-arrow'><i class='fa fa-angle-left'></i></div>"", ""<div class='right-arrow'><i class='fa fa-angle-right'></div>""],
+                            navigation: false,
+                        });
+                        jQuery("".brands-slider li"").show();
+                    });
+                });
+            </script>
+        </div>
+    </div>
+</div>",1,0
+Footer My Account Block,footer_myaccount,"<div class=""footer-colum-title"">
+                                    <h3>
+                                        My Account
+                                    </h3>
+                                </div>
+                                <div class=""footer-column-content"">
+<ul class=""footer links"">
+<li class=""nav item""><a href=""#"">My Account</a></li>
+<li class=""nav item""><a href=""#"">Login</a></li>
+<li class=""nav item""><a href=""#"">My Cart</a></li>
+<li class=""nav item""><a href=""#"">My Compare</a></li>
+<li class=""nav item""><a href=""#"">My Wishlist</a></li>
+</ul>
+</div>",1,0
+Footer Payment & Shipping,footer_payment_shipping,"<div class=""footer-colum-title"">
+                            <h3>
+                                Payment & Shipping
+                            </h3>
+                        </div>
+                        <div class=""footer-column-content"">
+<ul class=""footer links"">
+<li class=""nav item""><a href=""#"">Terms of Use</a></li>
+<li class=""nav item""><a href=""#"">Payment Methods</a></li>
+<li class=""nav item""><a href=""#"">Shipping Guide</a></li>
+<li class=""nav item""><a href=""#"">Order Tracking</a></li>
+<li class=""nav item""><a href=""#"">Return % Exchange</a></li>
+</ul>
+</div>",1,0
+Home Blogs,home_blogs,"<div class=""ab-home-blogs slider-block above-padding below-padding"">
+    <div class=""page-main"">
+        <div class=""title-block"">
+            <strong> 
+                <span>Recent Posts</span>                
+            </strong>
+        </div>
+        <div class=""content-block"">
+            <div class=""content-row"">
+                <div class=""blog-slider"">
+                    <div class=""item"" style=""display: none;"">
+                        <div class=""item-inner"">
+                            <div class=""img-block"">
+                                <a href=""#"">
+                                    <img src=""{{media url='wysiwyg/blog/blog-img-1.png'}}"" alt="""" />
+                                </a>
+                            </div>
+                            <div class=""text-block"">                                  
+                                <a href=""#"" class=""blog-title"">
+                                    <span>
+                                        At vero eos et accusamus et iusto odio.
+                                    </span>
+                                </a>
+                                <div class=""blog-desc"">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque. Laudantium totam.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=""item"" style=""display: none;"">
+                        <div class=""item-inner"">
+                            <div class=""img-block"">
+                                <a href=""#"">
+                                    <img src=""{{media url='wysiwyg/blog/blog-img-2.png'}}"" alt="""" />
+                                </a>
+                            </div>
+                            <div class=""text-block"">
+                                <a href=""#"" class=""blog-title"">
+                                    <span>
+                                        Nemo enim ipsam voluptatem quia.
+                                    </span>
+                                </a>
+                                <div class=""blog-desc"">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque. Laudantium totam.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=""item"" style=""display: none;"">
+                        <div class=""item-inner"">
+                            <div class=""img-block"">
+                                <a href=""#"">
+                                    <img src=""{{media url='wysiwyg/blog/blog-img-3.png'}}"" alt="""" />
+                                </a>
+                            </div>
+                            <div class=""text-block"">
+                                <a href=""#"" class=""blog-title"">
+                                    <span>
+                                        Et harum quidem rerum facilis estet.
+                                    </span>
+                                </a>
+                                <div class=""blog-desc"">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque. Laudantium totam.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=""item"" style=""display: none;"">
+                        <div class=""item-inner"">
+                            <div class=""img-block"">
+                                <a href=""#"">
+                                    <img src=""{{media url='wysiwyg/blog/blog-img-4.png'}}"" alt="""" />
+                                </a>
+                            </div>
+                            <div class=""text-block"">
+                                <a href=""#"" class=""blog-title"">
+                                    <span>
+                                        At vero eos et accusamus et iusto odio.
+                                    </span>
+                                </a>
+                                <div class=""blog-desc"">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque. Laudantium totam.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=""item"" style=""display: none;"">
+                        <div class=""item-inner"">
+                            <div class=""img-block"">
+                                <a href=""#"">
+                                    <img src=""{{media url='wysiwyg/blog/blog-img-5.png'}}"" alt="""" />
+                                </a>
+                            </div>
+                            <div class=""text-block"">
+                                <a href=""#"" class=""blog-title"">
+                                    <span>
+                                        Nemo enim ipsam voluptatem volu.
+                                    </span>
+                                </a>
+                                <div class=""blog-desc"">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque. Laudantium totam.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    require(['jquery', 'apparelowlcarousel'], function() {
+                        jQuery(document).ready(function() {
+                            jQuery("".blog-slider"").owlCarousel({
+                                items: 3,
+                                itemsDesktop: [1199, 3],
+                                itemsDesktopSmall: [991, 2],
+                                itemsTablet: [767, 2],
+                                itemsTabletSmall: [639, 1],
+                                itemsMobile: [479, 1],
+                                pagination: false,
+                                navigationText: [""<div class='prev-arrow'><i class='fa fa-angle-left'></i></div>"", ""<div class='next-arrow'><i class='fa fa-angle-right'></div>""],
+                                navigation: true,
+                                autoPlay: false,
+                            });
+                            jQuery("".blog-slider .item"").show();
+                        });
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+",1,0
+Footer Socials Block,footer-socials,"<div class=""socials-block"">
+            <a href=""#""><em class=""fa fa-facebook""></em></a>
+            <a href=""#""><em class=""fa fa-twitter""></em></a>
+            <a href=""#""><em class=""fa fa-linkedin""></em></a>
+            <a href=""#""><em class=""fa fa-google""></em></a>
+        </div>",1,0
+Home Images Block,home-images-two,"<div class=""home-parallax-block above-margin below-margin"">
+<p>ONLY THIS MONTH</p>
+<h1>SAVE 60% OFF SALE</h1>
+<a class=""action primary"" href=""https://demo.hiddentechies.com/apparel/electronics.html"" target=""_blank"">Shop Now</a>
+</div>",1,0
+Home Services Block,home-services,"<div class=""home-advantage-block"">
+    <div class=""page-main"">
+        <div class=""hab-row"">
+            <div class=""hab-inner"">
+                <div class=""home-advantage-block-inner"">
+                    <span> 
+                        <em class=""fa fa-usd""></em> 
+                    </span>
+                    <p>30-Day Money Back</p>
+                </div>
+            </div>
+            <div class=""hab-inner"">
+                <div class=""home-advantage-block-inner"">
+                    <span> 
+                        <em class=""fa fa-headphones""></em> 
+                    </span>
+                    <p>1 year Free Support</p>
+                </div>
+            </div>
+            <div class=""hab-inner"">
+                <div class=""home-advantage-block-inner"">
+                    <span> 
+                        <em class=""fa fa-undo""></em> 
+                    </span>
+                    <p>Free Lifetime Update</p>
+                </div>
+            </div>
+            <div class=""hab-inner"">
+                <div class=""home-advantage-block-inner"">
+                    <span> 
+                        <em class=""fa fa-thumbs-up""></em> 
+                    </span>
+                    <p>100% Satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>",1,0
+Home Single Images Block,home-single-images-block,"<div class=""home-images-wrapper above-padding below-padding"">
+<div class=""page-main"">
+<div class=""home-image-main"">
+<div class=""home-image-inner""><a href=""#""> <img class=""image-responsive middle-block"" src=""{{media url=""wysiwyg/advertisement/advt-block2.png""}}"" alt=""apparel-fashion-image"" /> </a></div>
+</div>
+</div>
+</div>",1,0
+Sidebar add banner,sidebar-add-banner,"<img src=""{{media url=""wysiwyg/advertisement/sidebar-banner.png""}}"" alt="""" />",1,0
+Footer Quicklinks Block,footer_quicklinks,"<div class=""footer-colum-title"">
+<h3>Quick Links</h3>
+</div>
+<div class=""footer-column-content"">
+<ul class=""footer links"">
+<li class=""nav item""><a href=""{{store url='privacy-policy-cookie-restriction-mode'}}""> Privacy and Cookie Policy </a></li>
+<li class=""nav item""><a href=""{{store url='search/term/popular'}}""> Search Terms </a></li>
+<li class=""nav item""><a href=""{{store url='contact'}}""> Contact Us </a></li>
+<li class=""nav item""><a href=""{{store url='sales/guest/form'}}""> Orders and Returns </a></li>
+<li class=""nav item""><a href=""{{store url='catalogsearch/advanced'}}"" data-action=""advanced-search""> Advanced Search </a></li>
+</ul>
+</div>",,

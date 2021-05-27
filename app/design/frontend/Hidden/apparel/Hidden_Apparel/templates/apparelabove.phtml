@@ -1,0 +1,6 @@
+<?php
+$helper = $this->helper('Hidden\Apparel\Helper\Data');
+$ishome = $helper->getIsHome();
+if ($ishome) {
+    echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('apparel-above')->toHtml();
+}
